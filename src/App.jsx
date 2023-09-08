@@ -1,11 +1,21 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
+import Layout from './components/Layout/Layout'
+import Home from './pages/Home/Home'
+import Category from './pages/Category/Category'
 
 function App() {
 
   return (
     <>
-      <Navbar/>      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout/>}>
+            <Route index element={<Home/>}/>
+            <Route path='/category' element={<Category/>}/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
