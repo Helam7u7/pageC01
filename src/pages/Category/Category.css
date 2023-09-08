@@ -19,7 +19,6 @@
 .product_card {
   padding: 1rem;
   border: 2px solid transparent;
-  display: flex;
   border-radius: 1rem;
   gap: 2rem;
 }
@@ -35,5 +34,5 @@
 }
 
 .card_img img {
-  width: 100px;
+  width: 400px;
 }
