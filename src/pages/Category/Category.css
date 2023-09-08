@@ -1,0 +1,39 @@
+.container_categories {
+  display: flex;
+  justify-content: center;
+}
+
+.list_product {
+  margin-top: 2rem;
+}
+
+.list_product h2{
+  margin-bottom: 3rem;
+}
+
+.container_products {
+  display: flex;
+  gap: 25rem;
+}
+
+.product_card {
+  padding: 1rem;
+  border: 2px solid transparent;
+  display: flex;
+  border-radius: 1rem;
+  gap: 2rem;
+}
+
+.product_card:hover {
+  border: 2px solid #032757;
+}
+
+.product_card .card_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card_img img {
+  width: 100px;
+}
