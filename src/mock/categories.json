@@ -1,0 +1,132 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "categoria": "Laptops",
+      "productos": [
+        {
+          "id": 1,
+          "modelo": "MacBook Air",
+          "generaciones": ["Todas"]
+        },
+        {
+          "id": 2,
+          "modelo": "MacBook Pro",
+          "generaciones": ["Todas"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "categoria": "Celulares",
+      "productos": [
+        {
+          "id": 1,
+          "modelo": "iPhone 11",
+          "color": "Púrpura",
+          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "almacenamiento": "64Gb",
+          "libre_iCloud": true,
+          "face_id": true,
+          "true_tone": true,
+          "bateria": "100%",
+          "precio": 1500
+        },
+        {
+          "id": 2,
+          "modelo": "iPhone 12",
+          "color": "Negro",
+          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "almacenamiento": "64Gb",
+          "libre_iCloud": true,
+          "face_id": true,
+          "true_tone": true,
+          "bateria": "93%",
+          "precio": 2400
+        },
+        {
+          "id": 3,
+          "modelo": "iPhone 13",
+          "color": "Blanco",
+          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "almacenamiento": "512Gb",
+          "libre_iCloud": true,
+          "face_id": true,
+          "true_tone": true,
+          "bateria": "93%",
+          "precio": 3000
+        },
+        {
+          "id": 4,
+          "modelo": "iPhone 13 Pro",
+          "color": "Blanco",
+          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "almacenamiento": "128Gb",
+          "libre_iCloud": true,
+          "face_id": true,
+          "true_tone": true,
+          "bateria": "88%",
+          "precio": 3900
+        },
+        {
+          "id": 5,
+          "modelo": "iPhone 14 Pro",
+          "color": "Morado/Negro",
+          "almacenamiento": "128Gb",
+          "libre_iCloud": true,
+          "face_id": true,
+          "true_tone": true,
+          "bateria": "100%",
+          "precio": 6500
+        },
+        {
+          "id": 6,
+          "modelo": "iPhone 14 Pro Max",
+          "color": "Negro",
+          "almacenamiento": "256Gb",
+          "libre_iCloud": true,
+          "face_id": true,
+          "true_tone": true,
+          "precio": 6500
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "categoria": "Audífonos",
+      "productos": [
+        {
+          "id": 1,
+          "modelo": "AirPods Max",
+          "precio": 900
+        },
+        {
+          "id": 2,
+          "modelo": "AirPods Pro (2da generación)",
+          "precio": 500
+        },
+        {
+          "id": 3,
+          "modelo": "AirPods Pro (3ra generación)",
+          "precio": 800
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "categoria": "Cargadores",
+      "productos": [
+        {
+          "id": 1,
+          "modelo": "Cargador original 35W doble entrada (cajas selladas)",
+          "precio": 150
+        },
+        {
+          "id": 2,
+          "modelo": "Cargador original 20W (cajas selladas)",
+          "precio": 90
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({categories_data}) => {
+  const categories = categories_data.categorias
+  
   return (
     <nav className='container_navbar'>
       <div className='navbar_img'>
@@ -10,10 +12,9 @@ const Navbar = () => {
       </div>
       <div className='navbar_list'>
         <ul className='list_links'>
-          <li><Link to="/Category">Laptos</Link></li>
-          <li><Link to="/Category">Celulares</Link></li>
-          <li><Link to="/Category">Audífonos</Link></li>
-          <li><Link to="/Category">Cargadores</Link></li>
+        {categories.map(categoria => (
+            <li key={categoria.id}><Link to={`/categoria/${categoria.categoria}`}>{categoria.categoria}</Link></li>
+          ))}
         </ul>
       </div>
     </nav>

@@ -3,6 +3,7 @@ import './App.css'
 import Layout from './components/Layout/Layout'
 import Home from './pages/Home/Home'
 import Category from './pages/Category/Category'
+import CATEGORIES_DATA from './mock/categories.json'
 
 function App() {
 
@@ -10,9 +11,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout/>}>
+          <Route path="/" element={<Layout categories_data = {CATEGORIES_DATA}/>}>
             <Route index element={<Home/>}/>
-            <Route path='/category' element={<Category/>}/>
+            <Route path='/categoria/:categoria' element={<Category categories_data = {CATEGORIES_DATA}/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

@@ -1,30 +1,43 @@
-import React from 'react'
+import { useEffect, useState } from 'react'
 import './Category.css'
+import { useParams } from 'react-router-dom'
 
-const Category = () => {
+const Category = ({categories_data}) => {
+  const arrayCat = categories_data.categorias
+  const categoriaPath = useParams()
+  const [categoriaActual, setCategoriaActual] = useState({
+    id: null,
+    categoria: '',
+    productos: []
+  });
+
+  console.log(categoriaPath.categoria);
+
+  useEffect(() => {
+    if (arrayCat.length > 0) {
+      const categoria = arrayCat.find(
+        (categoria) => categoria.categoria === categoriaPath.categoria
+      );
+      console.log(categoria);
+      setCategoriaActual(categoria);
+    }
+  }, [arrayCat]);
+
   return (
     <div className='container_categories'>
-      <div className='list_product'>
-        <h2>Generaciones: PIPIPI </h2>
-        <div className='container_products'>
-          <div className='product_card'>
-            <div className='card_img'><img src="/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png" alt="" /></div>
-            <div className='card_info'>
-              <h3>IPhone 14 Pro Max</h3>
-              <h2>S/. 6,049.00</h2>
-            </div>
-          </div>
-          <div className='product_card'>
-            <div className='card_img'><img src="/img/iphone/Fono2(IPhone-14-pro-Max-morado).png" alt="" /></div>
-            <div className='card_info'>
-              <h3>IPhone 14 Pro Max</h3>
-              <h2>S/. 6,049.00</h2>
-            </div>
-          </div>
-        </div>
-      </div>
+      {categoriaActual && (
+        <>
+          <h3>{categoriaActual.categoria}</h3>
+          {categoriaActual.productos.map(producto => (
+            <>
+            <img src={producto.img}/>
+            <h3>{producto.modelo}</h3>
+            </>
+          ))}
+        </>
+      )}
     </div>
-  )
+  );
 }
 
 export default Category
