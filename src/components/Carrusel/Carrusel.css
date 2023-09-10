@@ -3,7 +3,16 @@
   width: 100%;
   max-width: 600px; /* Ajusta el ancho máximo según tus preferencias */
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100rem;
+}
 
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0, 0, 1rem, 0;
 }
 
 img {
@@ -30,4 +39,12 @@ img {
 
 .right {
   right: 10px;
+}
+
+.carrusel_img img {
+  width: 400px;
+}
+
+.carrusel_img {
+  width: max-content;
 }

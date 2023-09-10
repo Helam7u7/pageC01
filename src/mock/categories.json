@@ -102,16 +102,19 @@
         {
           "id": 1,
           "modelo": "AirPods Max",
+          "img":"/img/iphone/Air-pods-Max.png",
           "precio": 900
         },
         {
           "id": 2,
           "modelo": "AirPods Pro (2da generación)",
+          "img":"/img/iphone/Air-pods-Pro-(2da-generación).png",
           "precio": 500
         },
         {
           "id": 3,
           "modelo": "AirPods Pro (3ra generación)",
+          "img":"/img/iphone/airpods-pro-(3ra-generación).png",
           "precio": 800
         }
       ]
