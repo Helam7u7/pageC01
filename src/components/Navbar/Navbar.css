@@ -31,7 +31,7 @@
   color: #222;
   display: flex;
   gap: 10rem;
-  position: relative;
+  /* position: relative; */
 }
 
 .list_links li {  
@@ -42,5 +42,5 @@
 .list_links li:hover {
   color: #032757;
   cursor: pointer;
-  border-bottom: 1px solid #032757;
+  border-bottom:1px solid #032757;
 }

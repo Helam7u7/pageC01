@@ -7,13 +7,13 @@
         {
           "id": 1,
           "modelo": "MacBook Air",
-          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "img": "/img/Productos/Mac/mac1.jfif",
           "generaciones": ["Todas"]
         },
         {
           "id": 2,
           "modelo": "MacBook Pro",
-          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "img": "/img/Productos/Mac/mac2.jfif",
           "generaciones": ["Todas"]
         }
       ]
@@ -26,7 +26,7 @@
           "id": 1,
           "modelo": "iPhone 11",
           "color": "Púrpura",
-          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "img": "/img/Productos/iphone/IPhone 11 PÚRPURA .png",
           "almacenamiento": "64Gb",
           "libre_iCloud": true,
           "face_id": true,
@@ -38,7 +38,7 @@
           "id": 2,
           "modelo": "iPhone 12",
           "color": "Negro",
-          "img": "/img/iphone/Fono2(IPhone-14-pro-Max-morado).png",
+          "img": "/img/Productos/iphone/IPhone 12 NEGRO.gif",
           "almacenamiento": "64Gb",
           "libre_iCloud": true,
           "face_id": true,
@@ -50,7 +50,7 @@
           "id": 3,
           "modelo": "iPhone 13",
           "color": "Blanco",
-          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "img": "/img/Productos/iphone/IPhone 13 BLANCO.png",
           "almacenamiento": "512Gb",
           "libre_iCloud": true,
           "face_id": true,
@@ -62,7 +62,7 @@
           "id": 4,
           "modelo": "iPhone 13 Pro",
           "color": "Blanco",
-          "img": "/img/iphone/Fono2(IPhone-14-pro-Max-morado).png",
+          "img": "/img/Productos/iphone/fono1--iPhone-13-Pro-BLANCO.png",
           "almacenamiento": "128Gb",
           "libre_iCloud": true,
           "face_id": true,
@@ -74,7 +74,7 @@
           "id": 5,
           "modelo": "iPhone 14 Pro",
           "color": "Morado/Negro",
-          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "img": "/img/Productos/iphone/Fono2(IPhone-14-pro-Max-morado).png",
           "almacenamiento": "128Gb",
           "libre_iCloud": true,
           "face_id": true,
@@ -86,7 +86,7 @@
           "id": 6,
           "modelo": "iPhone 14 Pro Max",
           "color": "Negro",
-          "img": "/img/iphone/Fono2(IPhone-14-pro-Max-morado).png",
+          "img": "/img/Productos/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
           "almacenamiento": "256Gb",
           "libre_iCloud": true,
           "face_id": true,
@@ -102,19 +102,19 @@
         {
           "id": 1,
           "modelo": "AirPods Max",
-          "img":"/img/iphone/Air-pods-Max.png",
+          "img":"/img/Productos/Airpods/Air-pods-Max.png",
           "precio": 900
         },
         {
           "id": 2,
           "modelo": "AirPods Pro (2da generación)",
-          "img":"/img/iphone/Air-pods-Pro-(2da-generación).png",
+          "img":"/img/Productos/Airpods/Air-pods-Pro-(2da-generación).png",
           "precio": 500
         },
         {
           "id": 3,
           "modelo": "AirPods Pro (3ra generación)",
-          "img":"/img/iphone/airpods-pro-(3ra-generación).png",
+          "img":"/img/Productos/Airpods/airpods-pro-(3ra-generación).png",
           "precio": 800
         }
       ]
@@ -126,11 +126,13 @@
         {
           "id": 1,
           "modelo": "Cargador original 35W doble entrada (cajas selladas)",
+          "img":"/img/Productos/Cargador/cargador.jpg",
           "precio": 150
         },
         {
           "id": 2,
           "modelo": "Cargador original 20W (cajas selladas)",
+          "img":"/img/Productos/Cargador/cargador.jpg",
           "precio": 90
         }
       ]
