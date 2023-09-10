@@ -7,11 +7,13 @@
         {
           "id": 1,
           "modelo": "MacBook Air",
+          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
           "generaciones": ["Todas"]
         },
         {
           "id": 2,
           "modelo": "MacBook Pro",
+          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
           "generaciones": ["Todas"]
         }
       ]
@@ -36,7 +38,7 @@
           "id": 2,
           "modelo": "iPhone 12",
           "color": "Negro",
-          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "img": "/img/iphone/Fono2(IPhone-14-pro-Max-morado).png",
           "almacenamiento": "64Gb",
           "libre_iCloud": true,
           "face_id": true,
@@ -60,7 +62,7 @@
           "id": 4,
           "modelo": "iPhone 13 Pro",
           "color": "Blanco",
-          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "img": "/img/iphone/Fono2(IPhone-14-pro-Max-morado).png",
           "almacenamiento": "128Gb",
           "libre_iCloud": true,
           "face_id": true,
@@ -72,6 +74,7 @@
           "id": 5,
           "modelo": "iPhone 14 Pro",
           "color": "Morado/Negro",
+          "img": "/img/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
           "almacenamiento": "128Gb",
           "libre_iCloud": true,
           "face_id": true,
@@ -83,6 +86,7 @@
           "id": 6,
           "modelo": "iPhone 14 Pro Max",
           "color": "Negro",
+          "img": "/img/iphone/Fono2(IPhone-14-pro-Max-morado).png",
           "almacenamiento": "256Gb",
           "libre_iCloud": true,
           "face_id": true,

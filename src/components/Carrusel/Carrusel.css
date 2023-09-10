@@ -1,0 +1,33 @@
+.carrusel {
+  /* position: relative; */
+  width: 100%;
+  max-width: 600px; /* Ajusta el ancho máximo según tus preferencias */
+  margin: 0 auto;
+
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}

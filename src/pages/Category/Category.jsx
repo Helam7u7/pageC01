@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './Category.css'
 import { useParams } from 'react-router-dom'
+import Carrusel from '../../components/Carrusel/Carrusel'
 
 const Category = ({categories_data}) => {
   const arrayCat = categories_data.categorias
@@ -24,19 +25,12 @@ const Category = ({categories_data}) => {
   }, [arrayCat]);
 
   return (
-    <div className='container_categories'>
-      {categoriaActual && (
-        <>
-          <h3>{categoriaActual.categoria}</h3>
-          {categoriaActual.productos.map(producto => (
-            <>
-            <img src={producto.img}/>
-            <h3>{producto.modelo}</h3>
-            </>
-          ))}
-        </>
-      )}
-    </div>
+    <>
+    <div>
+        <Carrusel productoObj = {categoriaActual}/>
+      </div>
+    </>
+
   );
 }
 
