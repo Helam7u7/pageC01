@@ -1,0 +1,58 @@
+.container_product {
+  display: flex;
+  margin: 4rem 5rem;
+  gap: 5rem;
+}
+
+.container_img {
+  margin-left: 2rem;
+}
+
+.container_img img {
+  width: 400px;
+}
+
+.container_info {
+  max-width: 500px;
+}
+
+.container_info h2 {
+  margin-bottom: 1rem;
+}
+
+.container_info ul {
+  list-style: none;
+}
+
+.container_info ul li {
+  margin: .8rem 0;
+}
+
+.shop_qr {
+  display: flex;
+  gap: 1rem;
+}
+
+.shop_qr img {
+  width: 100px;
+}
+
+.wsp {
+  height: 60px;
+}
+
+.show_methods h2 {
+  margin-top: 1.3rem;
+}
+
+.methods_img {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.methods_img img {
+  border-radius: 1rem;
+  width: 70px;
+}

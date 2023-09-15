@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Carrusel.css';
+import { Link } from 'react-router-dom';
 
 const Carrusel = ({ productoObj }) => {
   const listProducts = productoObj.productos;
@@ -7,13 +8,13 @@ const Carrusel = ({ productoObj }) => {
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? listProducts.length - 2 : prevIndex - 2
+      prevIndex === 0 ? listProducts.length - 2 : prevIndex - 1
     );
   };
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === listProducts.length - 2 ? 0 : prevIndex + 2
+      prevIndex === listProducts.length - 1 ? 0 : prevIndex + 1
     );
   };
 
@@ -30,10 +31,10 @@ const Carrusel = ({ productoObj }) => {
           <div
             key={product.id}
             className={`carrusel-slide ${
-              index === currentIndex || index === currentIndex + 1 ? 'active' : ''
+              index === currentIndex ? 'active' : ''
             }`}
           >
-            <img src={product.img} alt={product.modelo} />
+            <Link to="/product"><img src={product.img} alt={product.modelo} /></Link>
             <h3>{product.modelo}</h3>
             <p>{product.color}</p>
             <p>{product.almacenamiento}</p>
