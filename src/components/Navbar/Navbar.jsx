@@ -13,7 +13,7 @@ const Navbar = ({categories_data}) => {
       <div className='navbar_list'>
         <ul className='list_links'>
         {categories.map(categoria => (
-            <li key={categoria.id}><Link to={`/categoria/${categoria.categoria}`}>{categoria.categoria}</Link></li>
+            <li key={categoria.id}><Link className='list_link' to={`/categoria/${categoria.categoria}`}>{categoria.categoria}</Link></li>
           ))}
         </ul>
       </div>

@@ -28,10 +28,6 @@
           "color": "Púrpura",
           "img": "/img/Productos/iphone/IPhone 11 PÚRPURA .png",
           "almacenamiento": "64Gb",
-          "libre_iCloud": true,
-          "face_id": true,
-          "true_tone": true,
-          "bateria": "100%",
           "precio": 1500
         },
         {
@@ -40,10 +36,6 @@
           "color": "Negro",
           "img": "/img/Productos/iphone/IPhone 12 NEGRO.gif",
           "almacenamiento": "64Gb",
-          "libre_iCloud": true,
-          "face_id": true,
-          "true_tone": true,
-          "bateria": "93%",
           "precio": 2400
         },
         {
@@ -52,10 +44,6 @@
           "color": "Blanco",
           "img": "/img/Productos/iphone/IPhone 13 BLANCO.png",
           "almacenamiento": "512Gb",
-          "libre_iCloud": true,
-          "face_id": true,
-          "true_tone": true,
-          "bateria": "93%",
           "precio": 3000
         },
         {
@@ -64,10 +52,6 @@
           "color": "Blanco",
           "img": "/img/Productos/iphone/fono1--iPhone-13-Pro-BLANCO.png",
           "almacenamiento": "128Gb",
-          "libre_iCloud": true,
-          "face_id": true,
-          "true_tone": true,
-          "bateria": "88%",
           "precio": 3900
         },
         {
@@ -76,21 +60,14 @@
           "color": "Morado/Negro",
           "img": "/img/Productos/iphone/Fono2(IPhone-14-pro-Max-morado).png",
           "almacenamiento": "128Gb",
-          "libre_iCloud": true,
-          "face_id": true,
-          "true_tone": true,
-          "bateria": "100%",
           "precio": 6500
         },
         {
           "id": 6,
           "modelo": "iPhone 14 Pro Max",
           "color": "Negro",
-          "img": "/img/Productos/iphone/fono-1-(IPhone-14-pro-Max-dorrado).png",
+          "img": "/img/Productos/iphone/fono-1-(IPhone-14-pro-Max-dorrado) (2).png",
           "almacenamiento": "256Gb",
-          "libre_iCloud": true,
-          "face_id": true,
-          "true_tone": true,
           "precio": 6500
         }
       ]
