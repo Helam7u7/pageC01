@@ -1,54 +1,51 @@
-.carrusel-container {
-  text-align: center;
-  position: relative;
-}
+/* Carrusel.css */
 
 .carrusel {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  overflow: hidden;
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-  transition: transform 0.5s ease-in-out;
+  justify-content: center;
+  margin: 20px;
 }
 
-.carrusel-slide {
-  flex: 0 0 48%; /* Ajusta el ancho de cada imagen según tus necesidades */
+.carrusel-btn {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.carrusel-btn.prev {
+  background-color: #333;
+}
+
+.carrusel-container {
+  display: flex;
+}
+
+.carrusel-item {
+  flex: 0 0 calc(50% - 20px); /* Ajusta el ancho de los elementos del carrusel según sea necesario */
   padding: 20px;
   text-align: center;
-  opacity: 0.7;
-  transition: transform 0.5s ease-in-out;
 }
 
-.carrusel-slide.active {
-  flex: 0 0 48%; /* Ajusta el ancho de cada imagen activa según tus necesidades */
-  opacity: 1;
-}
-
-.carrusel img {
+.carrusel-item img {
   max-width: 100%;
   height: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
 }
 
-.prev-button,
-.next-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  padding: 10px 15px;
-  color: #333;
+.carrusel-item p {
+  margin-top: 10px;
+  font-weight: bold;
 }
 
-.prev-button {
-  left: 0;
+.carrusel-item .precio{
+  color: #032757ff;
+  text-align: center;
 }
-
-.next-button {
-  right: 0;
-}
+/* Estilos adicionales según sea necesario */

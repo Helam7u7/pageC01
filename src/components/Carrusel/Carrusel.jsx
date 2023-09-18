@@ -6,42 +6,33 @@ const Carrusel = ({ productoObj, categoria }) => {
   const listProducts = productoObj.productos;
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const duplicatedProducts = [...listProducts, ...listProducts]; // Duplica los productos
+
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? listProducts.length - 2 : prevIndex - 1
-    );
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? duplicatedProducts.length - 2 : prevIndex - 2));
   };
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === listProducts.length - 1 ? 0 : prevIndex + 1
-    );
+    setCurrentIndex((prevIndex) => (prevIndex === duplicatedProducts.length - 2 ? 0 : prevIndex + 2));
   };
 
   return (
-    <div className="carrusel-container">
-      <button className="prev-button" onClick={prevSlide}>
-        &#8249;
+    <div className="carrusel">
+      <button className="carrusel-btn prev" onClick={prevSlide}>
+        &lt; Anterior
       </button>
-      <button className="next-button" onClick={nextSlide}>
-        &#8250;
-      </button>
-      <div className="carrusel">
-        {listProducts.map((product, index) => (
-          <div
-            key={product.id}
-            className={`carrusel-slide ${
-              index === currentIndex ? 'active' : ''
-            }`}
-          >
-            <Link to={`/categoria/${categoria}/${product.id}`}><img src={product.img} alt={product.modelo} /></Link>
-            <h3>{product.modelo}</h3>
-            <p>{product.color}</p>
-            <p>{product.almacenamiento}</p>
-            <p>${product.precio}</p>
+      <div className="carrusel-container">
+        {duplicatedProducts.slice(currentIndex, currentIndex + 2).map((producto, index) => (
+          <div key={index} className="carrusel-item">
+            <Link to={`/categoria/${categoria}/${producto.id}`}><img src={producto.img} alt={producto.modelo} /></Link>
+            <p>{producto.modelo} ({producto.almacenamiento})</p>
+            <p className='precio'>S/.{producto.precio}</p>
           </div>
         ))}
       </div>
+      <button className="carrusel-btn next" onClick={nextSlide}>
+        Siguiente &gt;
+      </button>
     </div>
   );
 };
