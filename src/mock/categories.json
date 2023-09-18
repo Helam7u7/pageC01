@@ -7,12 +7,14 @@
         {
           "id": 1,
           "modelo": "MacBook Air",
+          "color": ["Morado","Negro"],
           "img": "/img/Productos/Mac/mac1.jfif",
           "generaciones": ["Todas"]
         },
         {
           "id": 2,
           "modelo": "MacBook Pro",
+          "color": ["Morado","Negro"],
           "img": "/img/Productos/Mac/mac2.jfif",
           "generaciones": ["Todas"]
         }
@@ -25,7 +27,7 @@
         {
           "id": 1,
           "modelo": "iPhone 11",
-          "color": "Púrpura",
+          "color": ["Púrpura"],
           "img": "/img/Productos/iphone/IPhone 11 PÚRPURA .png",
           "almacenamiento": "64Gb",
           "precio": 1500
@@ -33,7 +35,7 @@
         {
           "id": 2,
           "modelo": "iPhone 12",
-          "color": "Negro",
+          "color": ["Negro"],
           "img": "/img/Productos/iphone/IPhone 12 NEGRO.gif",
           "almacenamiento": "64Gb",
           "precio": 2400
@@ -41,7 +43,7 @@
         {
           "id": 3,
           "modelo": "iPhone 13",
-          "color": "Blanco",
+          "color": ["Blanco"],
           "img": "/img/Productos/iphone/IPhone 13 BLANCO.png",
           "almacenamiento": "512Gb",
           "precio": 3000
@@ -49,7 +51,7 @@
         {
           "id": 4,
           "modelo": "iPhone 13 Pro",
-          "color": "Blanco",
+          "color": ["Blanco"],
           "img": "/img/Productos/iphone/fono1--iPhone-13-Pro-BLANCO.png",
           "almacenamiento": "128Gb",
           "precio": 3900
@@ -57,7 +59,7 @@
         {
           "id": 5,
           "modelo": "iPhone 14 Pro",
-          "color": "Morado/Negro",
+          "color": ["Morado","Negro"],
           "img": "/img/Productos/iphone/Fono2(IPhone-14-pro-Max-morado).png",
           "almacenamiento": "128Gb",
           "precio": 6500
@@ -65,7 +67,7 @@
         {
           "id": 6,
           "modelo": "iPhone 14 Pro Max",
-          "color": "Negro",
+          "color": ["Negro"],
           "img": "/img/Productos/iphone/fono-1-(IPhone-14-pro-Max-dorrado) (2).png",
           "almacenamiento": "256Gb",
           "precio": 6500
@@ -79,18 +81,21 @@
         {
           "id": 1,
           "modelo": "AirPods Max",
+          "color": ["Morado","Negro"],
           "img":"/img/Productos/Airpods/Air-pods-Max.png",
           "precio": 900
         },
         {
           "id": 2,
           "modelo": "AirPods Pro (2da generación)",
+          "color": ["Morado","Negro"],
           "img":"/img/Productos/Airpods/Air-pods-Pro-(2da-generación).png",
           "precio": 500
         },
         {
           "id": 3,
           "modelo": "AirPods Pro (3ra generación)",
+          "color": ["Morado","Negro"],
           "img":"/img/Productos/Airpods/airpods-pro-(3ra-generación).png",
           "precio": 800
         }
@@ -103,12 +108,14 @@
         {
           "id": 1,
           "modelo": "Cargador original 35W doble entrada (cajas selladas)",
+          "color": ["Morado","Negro"],
           "img":"/img/Productos/Cargador/cargador.jpg",
           "precio": 150
         },
         {
           "id": 2,
           "modelo": "Cargador original 20W (cajas selladas)",
+          "color": ["Morado","Negro"],
           "img":"/img/Productos/Cargador/cargador.jpg",
           "precio": 90
         }

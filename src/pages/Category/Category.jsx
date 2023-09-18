@@ -14,7 +14,8 @@ const Category = ({categories_data}) => {
     <>
     <div></div>
     <div>
-        <Carrusel productoObj = {filteredProducts}/>
+        <Carrusel productoObj = {filteredProducts}
+                  categoria = {categoria}/>
       </div>
     </>
 

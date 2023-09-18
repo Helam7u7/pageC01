@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Layout categories_data = {CATEGORIES_DATA}/>}>
             <Route index element={<Home/>}/>
             <Route path='/categoria/:categoria' element={<Category categories_data = {CATEGORIES_DATA}/>}/>
-            <Route path='/product' element={<Product/>}/>
+            <Route path='/categoria/:categoria/:id' element={<Product categories_data = {CATEGORIES_DATA}/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

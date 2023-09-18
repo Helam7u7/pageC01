@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Carrusel.css';
 import { Link } from 'react-router-dom';
 
-const Carrusel = ({ productoObj }) => {
+const Carrusel = ({ productoObj, categoria }) => {
   const listProducts = productoObj.productos;
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -34,7 +34,7 @@ const Carrusel = ({ productoObj }) => {
               index === currentIndex ? 'active' : ''
             }`}
           >
-            <Link to="/product"><img src={product.img} alt={product.modelo} /></Link>
+            <Link to={`/categoria/${categoria}/${product.id}`}><img src={product.img} alt={product.modelo} /></Link>
             <h3>{product.modelo}</h3>
             <p>{product.color}</p>
             <p>{product.almacenamiento}</p>
