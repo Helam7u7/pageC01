@@ -42,9 +42,12 @@ const Product = ({ categories_data }) => {
       </div>
       <div className='precio'>
         <div className='colorPicker'>
-          {productoEncontrado.color.map(color => (
-            <div className='color'></div>
-          ))}
+        {productoEncontrado.color.map((colorName) => (
+              <div
+                className={`color ${colorName.toLowerCase()}`}
+                key={colorName}
+              ></div>
+            ))}
         </div>
         <h3>S/. {productoEncontrado.precio}</h3>
       </div>

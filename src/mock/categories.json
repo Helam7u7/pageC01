@@ -15,7 +15,7 @@
           "id": 2,
           "modelo": "MacBook Pro",
           "color": ["Morado","Negro"],
-          "img": "/img/Productos/Mac/mac2.jfif",
+          "img": "/img/Productos/Mac/laptop-1.png",
           "generaciones": ["Todas"]
         }
       ]
@@ -27,7 +27,7 @@
         {
           "id": 1,
           "modelo": "iPhone 11",
-          "color": ["Púrpura"],
+          "color": ["Negro","Blanco","Amarillo","Verde","Rojo"],
           "img": "/img/Productos/iphone/IPhone 11 PÚRPURA .png",
           "almacenamiento": "64Gb",
           "precio": 1500
@@ -35,7 +35,7 @@
         {
           "id": 2,
           "modelo": "iPhone 12",
-          "color": ["Negro"],
+          "color": ["Negro","Blanco","Rojo","Verde","Azul"],
           "img": "/img/Productos/iphone/IPhone 12 NEGRO.gif",
           "almacenamiento": "64Gb",
           "precio": 2400
@@ -43,7 +43,7 @@
         {
           "id": 3,
           "modelo": "iPhone 13",
-          "color": ["Blanco"],
+          "color": ["Plata","Rojo","Rosa","MediaNoche","Azul"],
           "img": "/img/Productos/iphone/IPhone 13 BLANCO.png",
           "almacenamiento": "512Gb",
           "precio": 3000
@@ -51,7 +51,7 @@
         {
           "id": 4,
           "modelo": "iPhone 13 Pro",
-          "color": ["Blanco"],
+          "color": ["Dorado","Negro","Plata","AzulSierra"],
           "img": "/img/Productos/iphone/fono1--iPhone-13-Pro-BLANCO.png",
           "almacenamiento": "128Gb",
           "precio": 3900
@@ -59,7 +59,7 @@
         {
           "id": 5,
           "modelo": "iPhone 14 Pro",
-          "color": ["Morado","Negro"],
+          "color": ["Purpura ","Dorado","Plata", "Negro"],
           "img": "/img/Productos/iphone/Fono2(IPhone-14-pro-Max-morado).png",
           "almacenamiento": "128Gb",
           "precio": 6500
@@ -67,7 +67,7 @@
         {
           "id": 6,
           "modelo": "iPhone 14 Pro Max",
-          "color": ["Negro"],
+          "color": ["Purpura ","Dorado","Plata", "Negro"],
           "img": "/img/Productos/iphone/fono-1-(IPhone-14-pro-Max-dorrado) (2).png",
           "almacenamiento": "256Gb",
           "precio": 6500
@@ -81,7 +81,7 @@
         {
           "id": 1,
           "modelo": "AirPods Max",
-          "color": ["Morado","Negro"],
+          "color": ["Gris Especial","Rosa","Verde","Plata","Azul Cielo"],
           "img":"/img/Productos/Airpods/Air-pods-Max.png",
           "precio": 900
         },

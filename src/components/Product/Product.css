@@ -74,6 +74,7 @@
   height: 30px;
   background-color: #222;
   border-radius: 50%;
+  box-shadow: inset 6px 9px 72px -55px rgba(0,0,0,0.7);
 }
 
 .precio {
@@ -83,4 +84,41 @@
   margin-top: 2rem;
   font-size: 2rem;
   color: #032757ff;
+}
+
+.color.negro {
+  background-color: #363432;
+}
+.color.dorado {
+  background-color: #cebfa0;
+}
+.color.blanco {
+  background-color: #fff;
+}
+.color.plata {
+  background-color: #eef1f0;
+}
+.color.purpura {
+  background-color: #63596a;
+}
+.color.amarillo {
+  background-color: #fce47f;
+}
+.color.azulsierra {
+  background-color: #a2bdd6;
+}
+.color.rosa {
+  background-color: #f9dcd6;
+}
+.color.medianoche {
+  background-color: #1a222b;
+}
+.color.rojo {
+  background-color: #9a0211;
+}
+.color.azul {
+  background-color: #22617e;
+}
+.color.verde {
+  background-color: #c7dec4;
 }

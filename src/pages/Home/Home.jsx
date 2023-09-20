@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className='container_banner'>
-        <img src="/img/banner/Purple White Modern New Collection Facebook Cover.png" alt="" />
+        <img src="/img/banner/banner.jfif" alt="" />
       </div>
     </>
   )

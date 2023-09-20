@@ -19,7 +19,7 @@ const Carrusel = ({ productoObj, categoria }) => {
   return (
     <div className="carrusel">
       <button className="carrusel-btn prev" onClick={prevSlide}>
-        &lt; Anterior
+        &lt;
       </button>
       <div className="carrusel-container">
         {duplicatedProducts.slice(currentIndex, currentIndex + 2).map((producto, index) => (
@@ -31,7 +31,7 @@ const Carrusel = ({ productoObj, categoria }) => {
         ))}
       </div>
       <button className="carrusel-btn next" onClick={nextSlide}>
-        Siguiente &gt;
+        &gt;
       </button>
     </div>
   );
