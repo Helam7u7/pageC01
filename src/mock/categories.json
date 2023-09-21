@@ -7,21 +7,21 @@
         {
           "id": 1,
           "modelo": "MacBook Air",
-          "color": ["Morado","Negro"],
+          "color": ["Blanco","Negro"],
           "img": "/img/Productos/Mac/MacBook-Air-de-13.png",
           "generaciones": ["Todas"]
         },
         {
           "id": 2,
           "modelo": "MacBook Pro",
-          "color": ["Morado","Negro"],
+          "color": ["Blanco","Negro"],
           "img": "/img/Productos/Mac/MacBook-Air-de-13block.png",
           "generaciones": ["Todas"]
         },
         {
           "id": 3,
           "modelo": "MacBook Pro",
-          "color": ["Morado","Negro"],
+          "color": ["Blanco","Negro"],
           "img": "/img/Productos/Mac/MacBook-Air-15.png",
           "generaciones": ["Todas"]
         }
@@ -115,14 +115,14 @@
         {
           "id": 1,
           "modelo": "Cargador original 35W doble entrada (cajas selladas)",
-          "color": ["Morado","Negro"],
+          "color": ["Blanco"],
           "img":"/img/Productos/Cargador/+Cargador-original-35W-doble-entrada.png",
           "precio": 150
         },
         {
           "id": 2,
           "modelo": "Cargador original 20W (cajas selladas)",
-          "color": ["Morado","Negro"],
+          "color": ["Blanco"],
           "img":"/img/Productos/Cargador/+Cargador-original-20W-(cajas-selladas).png",
           "precio": 90
         }

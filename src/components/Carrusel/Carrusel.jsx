@@ -19,6 +19,8 @@ const Carrusel = ({ productoObj, categoria }) => {
   return (
     <>
       <div className='bannerGen'><img src="/img/banner/bannerGen.png" alt="" /></div>
+      
+      
       <div className="carrusel">
         <button className="carrusel-btn prev" onClick={prevSlide}>
           &lt;
