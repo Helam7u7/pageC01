@@ -10,12 +10,12 @@
 }
 
 .navbar_img img{
-  width: 100px;
+  width: 60px;
 }
 
 .navbar_img {
   width: max-content;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .navbar_list {

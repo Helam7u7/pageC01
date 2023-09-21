@@ -17,23 +17,26 @@ const Carrusel = ({ productoObj, categoria }) => {
   };
 
   return (
-    <div className="carrusel">
-      <button className="carrusel-btn prev" onClick={prevSlide}>
-        &lt;
-      </button>
-      <div className="carrusel-container">
-        {duplicatedProducts.slice(currentIndex, currentIndex + 2).map((producto, index) => (
-          <div key={index} className="carrusel-item">
-            <Link to={`/categoria/${categoria}/${producto.id}`}><img src={producto.img} alt={producto.modelo} /></Link>
-            <p>{producto.modelo} ({producto.almacenamiento})</p>
-            <p className='precio'>S/.{producto.precio}</p>
-          </div>
-        ))}
+    <>
+      <div className='bannerGen'><img src="/img/banner/bannerGen.png" alt="" /></div>
+      <div className="carrusel">
+        <button className="carrusel-btn prev" onClick={prevSlide}>
+          &lt;
+        </button>
+        <div className="carrusel-container">
+          {duplicatedProducts.slice(currentIndex, currentIndex + 2).map((producto, index) => (
+            <div key={index} className="carrusel-item">
+              <Link to={`/categoria/${categoria}/${producto.id}`}><img src={producto.img} alt={producto.modelo} /></Link>
+              <p>{producto.modelo} ({producto.almacenamiento})</p>
+              <p className='precio'>S/.{producto.precio}</p>
+            </div>
+          ))}
+        </div>
+        <button className="carrusel-btn next" onClick={nextSlide}>
+          &gt;
+        </button>
       </div>
-      <button className="carrusel-btn next" onClick={nextSlide}>
-        &gt;
-      </button>
-    </div>
+    </>
   );
 };
 

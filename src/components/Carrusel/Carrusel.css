@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
 }
 
 .carrusel-btn {
@@ -25,6 +24,7 @@
 .carrusel-container {
   display: flex;
   justify-content: center;
+  gap: 5rem;
 }
 
 .carrusel-item {
@@ -38,7 +38,7 @@
 }
 
 .carrusel-item img {
-  max-width: 400px;
+  max-width: 350px;
   height: auto;
   /* border: 1px solid #ddd; */
   border-radius: 5px;
@@ -54,3 +54,8 @@
   text-align: center;
 }
 /* Estilos adicionales según sea necesario */
+
+.bannerGen img{
+  height: 60px; 
+  width: 100%; 
+}

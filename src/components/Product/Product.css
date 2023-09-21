@@ -80,9 +80,9 @@
 .precio {
   display: flex;
   align-items: center;
-  gap: 6rem;
+  gap: 3rem;
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #032757ff;
 }
 
