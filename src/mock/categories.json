@@ -8,21 +8,21 @@
           "id": 1,
           "modelo": "MacBook Air",
           "color": ["Morado","Negro"],
-          "img": "/img/Productos/Mac/MacBook-Air-15.png",
+          "img": "/img/Productos/Mac/MacBook-Air-de-13.png",
           "generaciones": ["Todas"]
         },
         {
           "id": 2,
           "modelo": "MacBook Pro",
           "color": ["Morado","Negro"],
-          "img": "/img/Productos/Mac/MacBook-Air-de-13.png",
+          "img": "/img/Productos/Mac/MacBook-Air-de-13block.png",
           "generaciones": ["Todas"]
         },
         {
           "id": 3,
           "modelo": "MacBook Pro",
           "color": ["Morado","Negro"],
-          "img": "/img/Productos/Mac/MacBook-Air-de-13block.png",
+          "img": "/img/Productos/Mac/MacBook-Air-15.png",
           "generaciones": ["Todas"]
         }
       ]
