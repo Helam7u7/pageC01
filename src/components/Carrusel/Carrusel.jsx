@@ -29,7 +29,7 @@ const Carrusel = ({ productoObj, categoria }) => {
           {duplicatedProducts.slice(currentIndex, currentIndex + 2).map((producto, index) => (
             <div key={index} className="carrusel-item">
               <Link to={`/categoria/${categoria}/${producto.id}`}><img src={producto.img} alt={producto.modelo} /></Link>
-              <p>{producto.modelo} ({producto.almacenamiento})</p>
+              <p>{producto.modelo} {producto.almacenamiento}</p>
               <p className='precio'>S/.{producto.precio}</p>
             </div>
           ))}

@@ -9,7 +9,10 @@
           "modelo": "MacBook 14 Pro",
           "color": ["Blanco","Negro"],
           "img": "/img/Productos/Mac/MacBook-Air-de-13.png",
-          "generaciones": ["Todas"]
+          "almacenamiento": "",
+          "generaciones": ["Todas"],
+          "precio":0
+
         },
         {
           "id": 2,
@@ -57,7 +60,7 @@
           "modelo": "iPhone 11",
           "color": ["Negro","Blanco","Amarillo","Verde","Rojo","Rosa"],
           "img": "/img/Productos/iphone/iphone11-black.png",
-          "almacenamiento": "64Gb",
+          "almacenamiento": "(64Gb)",
           "precio": 1500
         },
         {
@@ -65,7 +68,7 @@
           "modelo": "iPhone 12",
           "color": ["Negro","Blanco","Rojo","Verde","Azul"],
           "img": "/img/Productos/iphone/IPhone 12 NEGRO.gif",
-          "almacenamiento": "64Gb",
+          "almacenamiento": "(64Gb)",
           "precio": 2400
         },
         {
@@ -73,7 +76,7 @@
           "modelo": "iPhone 13",
           "color": ["Plata","Rojo","Rosa","MediaNoche","Azul"],
           "img": "/img/Productos/iphone/IPhone 13 BLANCO.png",
-          "almacenamiento": "512Gb",
+          "almacenamiento": "(512Gb)",
           "precio": 3000
         },
         {
@@ -81,7 +84,7 @@
           "modelo": "iPhone 13 Pro",
           "color": ["Dorado","Negro","Plata","AzulSierra"],
           "img": "/img/Productos/iphone/fono1--iPhone-13-Pro-BLANCO.png",
-          "almacenamiento": "128Gb",
+          "almacenamiento": "(128Gb)",
           "precio": 3900
         },
         {
@@ -89,7 +92,7 @@
           "modelo": "iPhone 14 Pro",
           "color": ["Purpura ","Dorado","Plata", "Negro"],
           "img": "/img/Productos/iphone/IPhone 12 NEGRO.gif",
-          "almacenamiento": "128Gb",
+          "almacenamiento": "(128Gb)",
           "precio": 6500
         },
         {
@@ -97,7 +100,7 @@
           "modelo": "iPhone 14 Pro Max",
           "color": ["Purpura ","Dorado","Plata", "Negro"],
           "img": "/img/Productos/iphone/fono-4-IPhone-14-pro-Max-blanco.png",
-          "almacenamiento": "256Gb",
+          "almacenamiento": "(256Gb)",
           "precio": 6500
         }
       ]
