@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className='container_banner'>
-        <img src="/img/banner/Poratda_33.jpg" alt="" />
+        <img src="/img/banner/PORTADAOa.jpg" alt="" />
       </div>
     </>
   )
