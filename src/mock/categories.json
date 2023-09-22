@@ -6,23 +6,44 @@
       "productos": [
         {
           "id": 1,
-          "modelo": "MacBook Air",
+          "modelo": "MacBook 14 Pro",
           "color": ["Blanco","Negro"],
           "img": "/img/Productos/Mac/MacBook-Air-de-13.png",
           "generaciones": ["Todas"]
         },
         {
           "id": 2,
-          "modelo": "MacBook Pro",
+          "modelo": "MacBook Air 2018",
           "color": ["Blanco","Negro"],
           "img": "/img/Productos/Mac/MacBook-Air-de-13block.png",
           "generaciones": ["Todas"]
         },
         {
           "id": 3,
-          "modelo": "MacBook Pro",
+          "modelo": "MacBook Air 15",
           "color": ["Blanco","Negro"],
           "img": "/img/Productos/Mac/MacBook-Air-15.png",
+          "generaciones": ["Todas"]
+        },
+        {
+          "id": 4,
+          "modelo": "MacBook Pro 13",
+          "color": ["Blanco","Negro"],
+          "img": "/img/Productos/Mac/MacBook-Pro-13-xd.png",
+          "generaciones": ["Todas"]
+        },
+        {
+          "id": 5,
+          "modelo": "MacBook Pro 2015",
+          "color": ["Blanco","Negro"],
+          "img": "/img/Productos/Mac/MacBook-Pro-2015.png",
+          "generaciones": ["Todas"]
+        },
+        {
+          "id": 6,
+          "modelo": "MacBook Pro 2015+",
+          "color": ["Blanco","Negro"],
+          "img": "/img/Productos/Mac/MacBook-Pro-2015-mas-mejor-xd.png",
           "generaciones": ["Todas"]
         }
       ]
@@ -34,7 +55,7 @@
         {
           "id": 1,
           "modelo": "iPhone 11",
-          "color": ["Negro","Blanco","Amarillo","Verde","Rojo"],
+          "color": ["Negro","Blanco","Amarillo","Verde","Rojo","Rosa"],
           "img": "/img/Productos/iphone/iphone11-black.png",
           "almacenamiento": "64Gb",
           "precio": 1500
@@ -95,14 +116,14 @@
         {
           "id": 2,
           "modelo": "AirPods Pro (2da generación)",
-          "color": ["Morado","Negro"],
+          "color": ["Blanco"],
           "img":"/img/Productos/Airpods/Air-pods-Pro-(2da-generación).png",
           "precio": 500
         },
         {
           "id": 3,
           "modelo": "AirPods Pro (3ra generación)",
-          "color": ["Morado","Negro"],
+          "color": ["Blanco"],
           "img":"/img/Productos/Airpods/airpods-pro-(3ra-generación).png",
           "precio": 800
         }
