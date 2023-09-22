@@ -23,7 +23,7 @@ const Product = ({ categories_data }) => {
   return (
     <div className='container_product'>
       <div className='container_img'>
-        <img src={productoEncontrado.img} alt="" />
+        <img src={productoEncontrado.imgs[0]} alt="" />
       </div>
       <div className='container_info'>  
       <h2>{productoEncontrado.modelo}</h2>
