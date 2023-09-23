@@ -9,9 +9,15 @@
 }
 
 .container_banner img{
-  /* width: 100vw; */
+  width: 100vw;
   height: 600px;
   overflow: hidden;
   /* width: 1440px; */
 }
 
+
+@media (max-width: 768px) {
+  .container_banner img {
+    max-width: 768px;
+  }
+}

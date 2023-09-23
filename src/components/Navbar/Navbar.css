@@ -55,3 +55,20 @@
   cursor: pointer;
   border-bottom:1px solid #032757;
 }
+
+
+@media (max-width: 768px) {
+  .container_navbar {
+    max-width: 768px;
+  }
+
+  .navbar_list .list_links {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .navbar_list .list_links {
+    flex-direction: column
+  }
+}
