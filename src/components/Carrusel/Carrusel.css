@@ -59,3 +59,13 @@
   height: 60px; 
   width: 100%; 
 }
+
+@media ( max-width: 786px ) {
+  .carrusel {
+    width: 786px;
+  }
+
+  .carrusel-item img {
+    max-width: 200px;
+  }
+}

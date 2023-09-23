@@ -69,6 +69,6 @@
 
 @media (max-width: 500px) {
   .navbar_list .list_links {
-    flex-direction: column
+    flex-direction: column;
   }
 }
