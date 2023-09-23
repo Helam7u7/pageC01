@@ -67,7 +67,7 @@
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
   .navbar_list .list_links {
     flex-direction: column
   }
