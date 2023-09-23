@@ -1,9 +1,17 @@
+:root {
+  --desktop: 1440px;
+}
+
 .container_banner {
+  max-width: var(--desktop);
   margin-top: 1.5rem;
+  margin: auto;
 }
 
 .container_banner img{
-  width: 100vw;
+  /* width: 100vw; */
   height: 600px;
+  overflow: hidden;
+  width: 1440px;
 }
 

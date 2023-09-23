@@ -1,12 +1,17 @@
-/* Navbar */
+:root {
+  --desktop: 1440px
+}
 
+/* Navbar */
 .container_navbar {
+  margin: auto;
   background-color: #ffffff;
   display: flex;
+  max-width: var(--desktop);
   align-items: center;
+  box-shadow: 0px 10px 6px -1px rgba(0,0,0,0.1);
   /* padding: .5rem; */
   /* border-bottom: 1px solid #222; */
-  box-shadow: 0px 10px 6px -1px rgba(0,0,0,0.1);
 }
 
 .navbar_img img{

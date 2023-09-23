@@ -3,6 +3,7 @@
 
 :root {
   /* font-family: 'Roboto', sans-serif; */
+  --width-desktop: 1440px;
   font-family: 'PT Serif', serif;
   font-size: 16px;
 }

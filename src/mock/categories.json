@@ -12,8 +12,8 @@
           "imgs": ["/img/Productos/Mac/MacBook-Air-de-13.png"],
           "almacenamiento": "",
           "generaciones": ["Todas"],
-          "precio":0
-
+          "precio":2000
+          
         },
         {
           "id": 2,
@@ -21,7 +21,8 @@
           "color": ["Blanco","Negro"],
           "imgMain": "/img/Productos/Mac/MacBook-Air-de-13block.png",
           "imgs": ["/img/Productos/Mac/MacBook-Air-de-13block.png"],
-          "generaciones": ["Todas"]
+          "generaciones": ["Todas"],
+          "precio":2000
         },
         {
           "id": 3,
@@ -29,7 +30,8 @@
           "color": ["Purpura","Blanco","Azul","Dorado"],
           "imgMain": "/img/Productos/Mac/MacBook-Air-15.png",
           "imgs": ["/img/Productos/Mac/MacBook-Air_15-colores.png"],
-          "generaciones": ["Todas"]
+          "generaciones": ["Todas"],
+          "precio":0
         },
         {
           "id": 4,
@@ -37,7 +39,8 @@
           "color": ["Blanco","Negro"],
           "imgMain": "/img/Productos/Mac/MacBook-Pro-13-xd.png",
           "imgs": ["/img/Productos/Mac/MacBook-Pro-13-xd.png"],
-          "generaciones": ["Todas"]
+          "generaciones": ["Todas"],
+          "precio":5000
         },
         {
           "id": 5,
@@ -45,7 +48,8 @@
           "color": ["Blanco","Negro"],
           "imgMain": "/img/Productos/Mac/MacBook-Pro-2015.png",
           "imgs": ["/img/Productos/Mac/MacBook-Pro-2015.png"],
-          "generaciones": ["Todas"]
+          "generaciones": ["Todas"],
+          "precio":3300
         },
         {
           "id": 6,
@@ -53,7 +57,8 @@
           "color": ["Blanco","Negro"],
           "imgMain": "/img/Productos/Mac/MacBook-Pro-2015-mas-mejor-xd.png",
           "imgs": ["/img/Productos/Mac/MacBook-Pro-2015-mas-mejor-xd.png"],
-          "generaciones": ["Todas"]
+          "generaciones": ["Todas"],
+          "precio":2890
         }
       ]
     },
