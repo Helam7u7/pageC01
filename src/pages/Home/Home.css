@@ -1,5 +1,5 @@
 :root {
-  --desktop: 1440px;
+  --desktop: 1600px;
 }
 
 .container_banner {
@@ -12,6 +12,6 @@
   /* width: 100vw; */
   height: 600px;
   overflow: hidden;
-  width: 1440px;
+  /* width: 1440px; */
 }
 
