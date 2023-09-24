@@ -10,6 +10,7 @@
   max-width: var(--desktop);
   align-items: center;
   box-shadow: 0px 10px 6px -1px rgba(0,0,0,0.1);
+  position: relative;
   /* padding: .5rem; */
   /* border-bottom: 1px solid #222; */
 }
@@ -56,6 +57,13 @@
   border-bottom:1px solid #032757;
 }
 
+.navbar_burguer {
+  display: none;
+}
+
+.navbar_burguer img {
+  width: 30px;
+}
 
 @media (max-width: 768px) {
   .container_navbar {
@@ -70,5 +78,40 @@
 @media (max-width: 500px) {
   .navbar_list .list_links {
     flex-direction: column;
+  }
+  .navbar_burguer {
+    display: block;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  .navbar_list {
+    position: absolute;
+    top: 100%;
+    justify-content: end;
+    display: none;
+  }
+  .navbar_list .list_links {
+    border-radius: .5rem;
+    background-color: #222;
+    text-align: center;
+
+  }
+  .list_links .list_link {
+    color: #fff;
+    border: 1px solid transparent
+  }
+  .list_links .list_link:hover {
+    color: #fff;
+    border: 1px solid transparent
+  }
+  .list_links li:hover {
+    background-color: #4b4b4b;
+    color: #fff;
+  }
+  .container_navbar {
+    justify-content: space-between;
+  }
+  .navbar_list.open {
+    display: flex; /* Muestra el menú cuando .open está presente */
   }
 }
