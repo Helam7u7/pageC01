@@ -62,7 +62,8 @@
 
 @media ( max-width: 786px ) {
   .carrusel {
-    width: 786px;
+    width: 700px;
+    margin: auto;
   }
 
   .carrusel-item img {
