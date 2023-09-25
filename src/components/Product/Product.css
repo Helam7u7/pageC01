@@ -34,9 +34,25 @@
   margin: .8rem 0;
 }
 
+.container_shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .shop_qr {
   display: flex;
   gap: 1rem;
+  flex-direction: column;
+}
+
+.shop_qr .qr_img {
+  display: flex;
+  flex-direction: row;
+}
+
+.shop_btn .btn img{
+  width: 200px;
 }
 
 .shop_qr img {
@@ -124,4 +140,43 @@
 }
 .color.verde {
   background-color: #c7dec4;
+}
+
+@media (max-width: 768px) {
+  .container_product {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: auto;
+    gap: 1rem; 
+    justify-content: center;
+  }
+  .container_shop {
+    grid-column: span 2; 
+    margin-top: 1rem; 
+    flex-direction: row;
+    justify-content: space-evenly;
+  }  
+  .precio {
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .container_product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .container_info h2{
+    margin-top: 1rem;
+  }
+  .container_img img {
+    width: 300px;
+  }
+  .container_shop {
+    flex-direction: column;
+  }
 }

@@ -56,13 +56,11 @@ const Product = ({ categories_data }) => {
         <div className='shop_qr'>
           <div className='qr_img'>
             <img src="/img/icons/qr/qr1.jpeg" alt="" />
-          </div>
-          <div className='qr_img'>
             <img src="/img/icons/qr/qr2.jpeg" alt="" />
           </div>
-        </div>
-        <div className='shop_btn'>
-          <Link to='https://api.whatsapp.com/send?phone=51995894477' _target="_blank"><img className='wsp' src="https://i0.wp.com/www.jacchigua.org/wp-content/uploads/2017/02/BOTON-WHATSAPP.png?ssl=1" alt="" /></Link>
+          <div className='shop_btn'>
+            <Link className='btn' to='https://api.whatsapp.com/send?phone=51995894477' _target="_blank"><img className='wsp' src="https://i0.wp.com/www.jacchigua.org/wp-content/uploads/2017/02/BOTON-WHATSAPP.png?ssl=1" alt="" /></Link>
+          </div>
         </div>
         <div className='show_methods'>
           <h2>Metodos de Pago:</h2>
