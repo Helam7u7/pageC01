@@ -2,7 +2,7 @@
   "categorias": [
     {
       "id": 1,
-      "categoria": "Laptops",
+      "categoria": "Mac",
       "productos": [
         {
           "id": 1,
@@ -124,7 +124,7 @@
     },
     {
       "id": 3,
-      "categoria": "Audífonos",
+      "categoria": "AirPods",
       "productos": [
         {
           "id": 1,

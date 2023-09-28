@@ -9,7 +9,7 @@ const Footer = () => {
         <ul>
           <li>📱 Iphone's</li>
           <li>💻 Mac</li>
-          <li>🎧 Airpods</li>
+          <li>🎧 AirPods</li>
           <li>🔋 Cargadores</li>
         </ul>
         <h3>"Ofrecemos venta de productos Apple"</h3>
