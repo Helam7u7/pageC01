@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Carrusel = ({ productoObj, categoria }) => {
   const listProducts = productoObj.productos;
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 500);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 500); // Inicializa isMobile con el valor actual
 
   const duplicatedProducts = [...listProducts, ...listProducts]; // Duplica los productos
 

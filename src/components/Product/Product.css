@@ -16,6 +16,9 @@
   width: 400px;
 }
 
+.container_info {
+  max-width: 400px;
+}
 .container_info h2 {
   font-size: 2rem;
 }

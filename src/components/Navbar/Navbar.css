@@ -94,6 +94,7 @@
     border-radius: .5rem;
     background-color: #222;
     text-align: center;
+    gap: 0;
 
   }
   .list_links .list_link {
@@ -107,6 +108,7 @@
   .list_links li:hover {
     background-color: #4b4b4b;
     color: #fff;
+    border-radius: .5rem;
   }
   .container_navbar {
     justify-content: space-between;
