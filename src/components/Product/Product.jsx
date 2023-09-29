@@ -30,14 +30,9 @@ const Product = ({ categories_data }) => {
       <div className='container_caract'>
         <h3 className='info_title'>Caracteristicas</h3>
         <ul className='info_list'>
-          <li>iOS 14 con widgets rediseñados en la pantalla de inicio, nueva Biblioteca de Apps, App Clips y mucho más.</li>
-          <li>Carga inalámbrica.</li>
-          <li>Sistema de dos cámaras de 12 MP (ultra gran angular y gran angular) con modo Noche, modo Retrato y video 4K de hasta 60 cps.</li>
-          <li>Pantalla LCD Liquid Retina HD de 6.1 pulgadas.</li>
-          <li>Chip A13 Bionic con Neural Engine de tercera generación.</li>
-          <li>Face ID para una autenticación segura y Apple Pay.</li>
-          <li>Carga rápida</li>
-          <li>Clasificación IP68 de resistencia al agua y al polvo (hasta 30 minutos a una profundidad máxima de 2 metros).</li>
+          {productoEncontrado.desc.map(p => (
+            <li>{p}</li>
+          ))}
         </ul>
       </div>
       <div className='precio'>

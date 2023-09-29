@@ -6,32 +6,61 @@
       "productos": [
         {
           "id": 1,
-          "modelo": "MacBook 14 Pro",
+          "modelo": "MacBook Pro",
           "color": ["Blanco","Negro"],
           "imgMain": "/img/Productos/Mac/MacBook-Air-de-13.png",
           "imgs": ["/img/Productos/Mac/MacBook-Air-de-13.png"],
           "almacenamiento": "",
           "generaciones": ["Todas"],
-          "precio":2000
+          "desc":[
+            "MacBook Pro totalmente restaurada por Apple",
+            "Pantalla 13,3 pulgadas con tecnología IPS resolución nativa de 2.560 x 1.600 a 227px",
+            "Brillo de 500 nits Gama cromática amplia",
+            "Intel Core i5 de doble núcleo a 2,3ghz y 64 MB de eDRAM",
+            "Dos puertos Thunderbolt 3 Audio Altavoces estéreo con alto rango dinámico",
+            "Adaptador de corriente USB-C de 61 W",
+            "Dimensiones y peso Alto: 1.49 cm Ancho: 30,41 cm Fondo: 21,24 cm Peso: 1,37 kg ",
+            "See less"
+          ],
+          "precio":3500
           
         },
         {
           "id": 2,
-          "modelo": "MacBook Air 2018",
+          "modelo": "MacBook Air 2017",
           "color": ["Blanco","Negro"],
           "imgMain": "/img/Productos/Mac/MacBook-Air-de-13block.png",
           "imgs": ["/img/Productos/Mac/MacBook-Air-de-13block.png"],
           "generaciones": ["Todas"],
-          "precio":2000
+          "desc":[
+            "Procesador i5",
+            "Pantalla 13 pulgadas",
+            "Memoria de 12GB",
+            "Ram 8GB",
+            "Condición general: ¡General!"
+          ],
+          "precio":3500
         },
         {
           "id": 3,
-          "modelo": "MacBook Air 15",
+          "modelo": "Macbook pro del 2019",
           "color": ["Purpura","Blanco","Azul","Dorado"],
           "imgMain": "/img/Productos/Mac/MacBook-Air-15.png",
           "imgs": ["/img/Productos/Mac/MacBook-Air_15-colores.png"],
           "generaciones": ["Todas"],
-          "precio":0
+          "desc":[
+            "Pantalla 13.3 pulgadas",
+            "Procesador Core i5",
+            "RAM de 8GB",
+            "Tarjeta de video 2GB",
+            "Bateria de plomo duración 10 horas",
+            "Teclado touch bar",
+            "Teclado retro iluminado",
+            "Buen rendimientos para trabajo de ingeniería",
+            "Cargador original",
+            "Buen sonido See less"
+          ],
+          "precio":4499
         },
         {
           "id": 4,
@@ -40,7 +69,13 @@
           "imgMain": "/img/Productos/Mac/MacBook-Pro-13-xd.png",
           "imgs": ["/img/Productos/Mac/MacBook-Pro-13-xd.png"],
           "generaciones": ["Todas"],
-          "precio":5000
+          "desc":[
+            "Vendo mi macbook pro 2013",
+            "Intel i7",
+            "8gb de ram",
+            "Entrega con cargador original"
+          ],
+          "precio":2000
         },
         {
           "id": 5,
@@ -49,7 +84,8 @@
           "imgMain": "/img/Productos/Mac/MacBook-Pro-2015.png",
           "imgs": ["/img/Productos/Mac/MacBook-Pro-2015.png"],
           "generaciones": ["Todas"],
-          "precio":3300
+          "desc":[],
+          "precio":0
         },
         {
           "id": 6,
@@ -58,7 +94,8 @@
           "imgMain": "/img/Productos/Mac/MacBook-Pro-2015-mas-mejor-xd.png",
           "imgs": ["/img/Productos/Mac/MacBook-Pro-2015-mas-mejor-xd.png"],
           "generaciones": ["Todas"],
-          "precio":2890
+          "desc":[],
+          "precio":0
         }
       ]
     },
@@ -73,6 +110,17 @@
           "imgMain": "/img/Productos/iphone/iphone11-black.png",
           "imgs": ["/img/Productos/iphone/iphone11-black.png"],
           "almacenamiento": "(64Gb)",
+          "desc":[
+            "Memoria RAM de 4GB y una memoria interna de 64GB",
+            "Pantalla de 6.1'' pulgadas con tecnología OLED y resolución HD.",
+            "Cámara posterior: cámara principal de 12 MP + cámara secundaria de 12 MP con sistema ultra gran angular y gran angular.",
+            "Cámara frontal: 12 MP.",
+            "Sistema operativo: iOS.",
+            "Chip A13 Bionic",
+            "Chip A13 Bionic",
+            "Dimensiones Ancho: 7,57 cm, Alto: 15,09 cm, Grosor: 0,83 cm.",
+            "Batería recargable integrada de iones de litio."
+          ],
           "precio": 1500
         },
         {
@@ -81,6 +129,19 @@
           "color": ["Negro","Blanco","Rojo","Verde","Azul"],
           "imgMain": "/img/Productos/iphone/IPhone 12 NEGRO.gif",
           "imgs":["/img/Productos/iphone/IPhone 12 NEGRO.gif"],
+          "desc":[
+            "Reconocimiento facial por medio de la cámara TrueDepth",
+            "Redes y Conectividad: 4G + LTE",
+            "Tipo de Batería: Litio Ion",
+            "Capacidad de batería: 2.775 mAh",
+            "Memoria interna de 64GB",
+            "Pantalla: Super Retina XDR, OLED de 6.1 pulgadas",
+            "Cámara Trasera: Sistema de dos cámaras de 12 MP: ultra gran angular y gran angular",
+            "Cámara Frontal: Cámara de 12 MP",
+            "Procesador: Apple Chip A14 Bionic",
+            "Tamaño y peso: 146.7 x 71.5 x 7.4 mm / 162 gr",
+            "Sistema operativo iOS 14"
+          ],
           "almacenamiento": "(64Gb)",
           "precio": 2400
         },
@@ -91,6 +152,16 @@
           "imgMain": "/img/Productos/iphone/IPhone 13 BLANCO.png",
           "imgs": ["/img/Productos/iphone/IPhone 13 BLANCO.png"],
           "almacenamiento": "(512Gb)",
+          "desc":[
+            "Memoria interna de 512GB.",
+            "4GB de RAM.",
+            "Pantalla de 6.1 pulgadas",
+            "Capacidad de batería: 3227mAh",
+            "Cámara Trasera 12+12MPx.",
+            "Cámara Frontal 12MPx.",
+            "Sistema Operativo: iOS 15.",
+            "Procesador: Apple A15 Bionic."
+          ],
           "precio": 3000
         },
         {
@@ -100,6 +171,16 @@
           "imgMain": "/img/Productos/iphone/fono1--iPhone-13-Pro-BLANCO.png",
           "imgs": ["/img/Productos/iphone/fono1--iPhone-13-Pro-BLANCO.png"],
           "almacenamiento": "(128Gb)",
+          "desc":[
+            "Memoria interna de 128GB.",
+            "6GB de RAM.",
+            "Pantalla de 6.1 pulgadas",
+            "Capacidad de batería: 3095 mAh",
+            "Cámara Trasera 12MP+12MP +12MP+TOF 3D",
+            "Cámara Frontal 12MPx.",
+            "Sistema Operativo: iOS 15.",
+            "Procesador: Apple A15 Bionic."
+          ],
           "precio": 3900
         },
         {
@@ -109,7 +190,18 @@
           "imgMain": "/img/Productos/iphone/IPhone 12 NEGRO.gif",
           "imgs": ["/img/Productos/iphone/IPhone 12 NEGRO.gif"],
           "almacenamiento": "(128Gb)",
-          "precio": 6500
+          "desc":[
+            "Memoria interna de 128GB.",
+            "6GB de RAM.",
+            "Pantalla OLED de 6.1 pulgadas",
+            "Capacidad de batería: 3200 mAh",
+            "Cámara principal de 48MP estabilizado, ultrawide de 12MP y sensor de 12MP con zoom óptico 3x.",
+            "Cámara frontal 12MPx",
+            "Carga inalámbrica",
+            "Procesador: Apple A16 Bionic.",
+            "Resistente al agua"
+          ],
+          "precio": 6299
         },
         {
           "id": 6,
@@ -118,6 +210,17 @@
           "imgMain": "/img/Productos/iphone/fono-4-IPhone-14-pro-Max-blanco.png",
           "imgs": ["/img/Productos/iphone/fono-4-IPhone-14-pro-Max-blanco.png"],
           "almacenamiento": "(256Gb)",
+          "desc":[
+            "Memoria interna de 256GB.",
+            "6GB de RAM.",
+            "Pantalla OLED de 6.7 pulgadas",
+            "Capacidad de batería: 4.323 mAh",
+            "Cámara 48MP con estabilización por sensor, sumando cámaras ultrawide y telefoto de 12MP",
+            "Cámara frontal 12MPx",
+            "Carga inalámbrica",
+            "Procesador: Apple A16 Bionic.",
+            "Resistente al agua"
+          ],
           "precio": 6500
         }
       ]
@@ -132,6 +235,15 @@
           "color": ["Gris Especial","Rosa","Verde","Plata","Azul Cielo"],
           "imgMain":"/img/Productos/Airpods/Air-pods-Max.png",
           "imgs": ["/img/Productos/Airpods/Air-pods-Max.png"],
+          "desc":[
+            "Controlador dinámico con sonido de alta fidelidad.",
+            "Cancelación Activa de Ruido que bloquea el ruido exterior.",
+            "Modo Ambiente para que escuches todo lo que ocurre a tu alrededor",
+            "Audio espacial con seguimiento dinámico del movimiento de la cabeza para crear un sonido envolvente como en el cine",
+            "Consumo de energía ultrabajo",
+            "Fácil configuración, sistema de detección de uso y cambio inmediato de dispositivo para ofrecer una experiencia mágica",
+            "20 horas de audio, reproducción de video y llamadas con la Cancelación Activa de Ruido y el audio espacial activados"
+          ],
           "precio": 900
         },
         {
@@ -140,6 +252,18 @@
           "color": ["Blanco"],
           "imgMain":"/img/Productos/Airpods/Air-pods-Pro-(2da-generación).png",
           "imgs": ["/img/Productos/Airpods/Air-pods-Pro-(2da-generación).png"],
+          "desc":[
+            "Cancelación Activa de Ruido que reduce el ruido exterior.",
+            "Modo Ambiente adaptable que te permite escuchar lo que pasa a tu alrededor, pero con menos ruido ambiental.",
+            "Audio espacial personalizado con seguimiento dinámico de la cabeza, para que disfrutes un sonido envolvente.",
+            "Distintos tamaños de almohadillas (XS,S,M,L).",
+            "Resistencia al agua y al sudor: AirPods Pro y estuche de carga.",
+            "Estuche de carga MagSafe con bocina y ojal para correa.",
+            "Fácil configuración, detección de uso y cambio automático de dispositivo",
+            "Hasta 30 horas de reproducción de audio en total usando el estuche de carga MagSafe y con la Cancelación Activa de Ruido activada",
+            "",
+            ""
+          ],
           "precio": 500
         },
         {
@@ -148,6 +272,14 @@
           "color": ["Blanco"],
           "imgMain":"/img/Productos/Airpods/airpods-pro-(3ra-generación).png",
           "imgs": ["/img/Productos/Airpods/airpods-pro-(3ra-generación).png"],
+          "desc":[
+            "Disfruta de una experiencia de sonido envolvente y tridimensional gracia a su audio espacial con seguimiento dinámico de la cabeza.",
+            "La Ecualización Adaptativa ajusta la música automáticamente a tus oídos.",
+            "Graves profundos y agudos súper nítidos.",
+            "Llamadas claras y nítidas gracias a sus micrófonos interiores cubiertos con una malla acústica que minimiza el efecto del viento.",
+            "Los AirPods y el estuche de carga MagSafe tienen una calificación IPX4 de resistencia al agua.",
+            "Hasta 6 horas de audio con una sola carga. 30 horas con la carga total del estuche"
+          ],
           "precio": 800
         }
       ]
@@ -162,6 +294,11 @@
           "color": ["Blanco"],
           "imgMain":"/img/Productos/Cargador/+Cargador-original-35W-doble-entrada.png",
           "imgs": ["/img/Productos/Cargador/+Cargador-original-35W-doble-entrada.png"],
+          "desc":[
+            "Compatible con AirPods,MacBook Air,Watch,iPad,iPhone,iPod",
+            "Voltaje de entrada 110V/220V (Bivolt)",
+            "Adaptador de corriente con dos puertos USB‑C de 35 W de Apple"
+          ],
           "precio": 150
         },
         {
@@ -170,6 +307,14 @@
           "color": ["Blanco"],
           "imgMain":"/img/Productos/Cargador/+Cargador-original-20W-(cajas-selladas).png",
           "imgs": ["/img/Productos/Cargador/+Cargador-original-20W-(cajas-selladas).png"],
+          "desc":[
+            "Cuenta con tipo de conector USB-c.",
+            "El voltaje de entrada es de 110V/220V(Bivolt).",
+            "El voltaje de salida es de 5V.",
+            "Compatible con: Apple.",
+            "Compatible con: iPad Mini (sexta generación), iPad (novena generación), iPad Pro 12.9 pulgadas (quinta generación), iPad Pro 11 pulgadas (tercera generación), iPad (octava generación) y iPad Air (cuarta generación).",
+            "Recarga la batería de tus dispositivos de manera rápida y eficaz."
+          ],
           "precio": 90
         }
       ]
