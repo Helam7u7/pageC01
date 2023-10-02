@@ -45,8 +45,8 @@
           "id": 3,
           "modelo": "Macbook pro del 2019",
           "color": ["Purpura","Blanco","Azul","Dorado"],
-          "imgMain": "/img/Productos/Mac/MacBook-Pro-2015-mas-mejor-xd.png",
-          "imgs": ["/img/Productos/Mac/MacBook-Pro-2015-mas-mejor-xd.png"],
+          "imgMain": "/img/Productos/Mac/MacBook-Air-15.png",
+          "imgs": ["/img/Productos/Mac/MacBook-Air_15-colores.png"],
           "generaciones": ["Todas"],
           "desc":[
             "Pantalla 13.3 pulgadas",
@@ -76,6 +76,26 @@
             "Entrega con cargador original"
           ],
           "precio":2000
+        },
+        {
+          "id": 5,
+          "modelo": "MacBook Pro 2015",
+          "color": ["Blanco","Negro"],
+          "imgMain": "/img/Productos/Mac/MacBook-Pro-2015.png",
+          "imgs": ["/img/Productos/Mac/MacBook-Pro-2015.png"],
+          "generaciones": ["Todas"],
+          "desc":[],
+          "precio":0
+        },
+        {
+          "id": 6,
+          "modelo": "MacBook Pro 2015+",
+          "color": ["Blanco","Negro"],
+          "imgMain": "/img/Productos/Mac/MacBook-Pro-2015-mas-mejor-xd.png",
+          "imgs": ["/img/Productos/Mac/MacBook-Pro-2015-mas-mejor-xd.png"],
+          "generaciones": ["Todas"],
+          "desc":[],
+          "precio":0
         }
       ]
     },
