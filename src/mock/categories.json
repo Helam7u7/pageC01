@@ -76,7 +76,8 @@
             "Entrega con cargador original"
           ],
           "precio":2000
-        },
+        }
+        ,
         {
           "id": 5,
           "modelo": "MacBook Pro 2015",
